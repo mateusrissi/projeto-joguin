@@ -1,38 +1,31 @@
 import React from "react";
-import { Row, Col, Alert } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 
 function Game() {
   return (
-    <Row>
-      <Col>
-        <h1 className="subtitle">About Me</h1>
-        <Alert variant="success">
-          <div>
-            <p>
-              <b>Lorem</b>
-            </p>
-            <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut laborevoluptate velit esse cillum
-              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-              non proident, sunt in culpa qui officia deserunt mollit anim id
-              est laborum."
-            </p>
-            <br />
-            <p>
-              <b>Ipsum</b>
-            </p>
-            <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut laborevoluptate velit esse cillum
-              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-              non proident, sunt in culpa qui officia deserunt mollit anim id
-              est laborum."
-            </p>
-          </div>
-        </Alert>
-      </Col>
-    </Row>
+    <Container className="border">
+      <Row>
+        <Col>
+          I'm baby hammock viral woke pinterest bushwick, tacos polaroid
+          succulents air plant beard bicycle rights fam four loko glossier small
+          batch. Roof party godard taiyaki sustainable craft beer. Deep v godard
+          live-edge, DIY microdosing pork belly stumptown locavore chartreuse
+          typewriter. Truffaut sartorial pug iceland plaid bushwick trust fund,
+          heirloom pabst mumblecore master cleanse synth wayfarers tattooed.
+          Poke affogato bitters literally. I'm baby hammock viral woke pinterest
+          bushwick, tacos polaroid as chartreuse typewriter. Truffaut sartorial pug
+          iceland plaid bushwick trust fund, heirloom pabst mumblecore master
+          cleanse synth wayfarers tattooed. Poke affogato bitters literally. I'm
+          baby hammock viral woke pinterest bushwick, tacos polaroid succulents
+          air plant beard bicycle rights fam four loko glossier small batch.
+          Roof party godard taiyaki sustainable craft beer. Deep v godard
+          live-edge, DIY microdosing pork belly stumptown locavore chartreuse
+          typewriter. Truffaut sartorial pug iceland plaid bushwick trust fund,
+          heirloom pabst mumblecore master cleanse synth wayfarers tattooed.
+          Poke affogato bitters literally.
+        </Col>
+      </Row>
+    </Container>
   );
 }
 
