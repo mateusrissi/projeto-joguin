@@ -2,14 +2,14 @@ import React, { Component } from "react";
 import Header from "./components/header/header.js";
 import Main from "./main.js";
 import Footer from "./components/footer/footer.js";
-import test from "./images/background.png";
+import bg from "./images/background_01.png";
 
 class App extends Component {
   render() {
     return (
       <div
         style={{
-          backgroundImage: `url(${test})`,
+          backgroundImage: `url(${bg})`,
           backgroundRepeat: "no-repeat",
         }}
       >
