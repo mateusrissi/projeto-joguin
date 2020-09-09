@@ -7,7 +7,7 @@ import { SiDeezer } from "react-icons/si";
 function LandingPage() {
   return (
     <Container>
-      <Row className="my-auto text-center">
+      <Row className="text-center">
         <Col lg={{ order: 1 }} className="text-center">
           <Image
             src={require("../../images/game_title.png")}

@@ -11,6 +11,10 @@ class App extends Component {
         style={{
           backgroundImage: `url(${bg})`,
           backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          height: "100%",
+          width: "100%",
         }}
       >
         <Header />
