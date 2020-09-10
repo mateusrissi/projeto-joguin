@@ -1,10 +1,14 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 function Header() {
-  if (window.location.pathname === "/") return null;
-  return (
+  const location = useLocation();
+
+  return location.pathname === "/" ? (
+    <Navbar bg="dark" expand="lg" variant="dark" id="main-navbar">.
+    </Navbar>
+  ) : (
     <Navbar bg="dark" expand="lg" variant="dark" id="main-navbar">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

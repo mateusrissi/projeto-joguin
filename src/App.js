@@ -4,6 +4,10 @@ import Main from "./main.js";
 import Footer from "./components/footer/footer.js";
 import bg from "./images/background_01.png";
 
+document.body.classList.add("d-flex");
+document.body.classList.add("flex-column");
+document.body.classList.add("h-100");
+
 class App extends Component {
   render() {
     return (
