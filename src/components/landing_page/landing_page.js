@@ -15,6 +15,7 @@ function LandingPage() {
               alt="O Embaixador"
               fluid
             />
+            <h2>THE LEGACY</h2>
             <p>
               I'm baby hammock viral woke pinterest bushwick, tacos polaroid
               succulents air plant beard bicycle rights fam four loko glossier

@@ -6,26 +6,31 @@ function Quests() {
     <Container className="border">
       <Row>
         <Col>
-          I'm baby hammock viral woke pinterest bushwick, tacos polaroid
-          succulents air plant beard bicycle rights fam four loko glossier small
-          batch. Roof party godard taiyaki sustainable craft beer. Deep v godard
-          live-edge, DIY microdosing pork belly stumptown locavore chartreuse
-          typewriter. Truffaut sartorial pug iceland plaid bushwick trust fund,
-          heirloom pabst mumblecore master cleanse synth wayfarers tattooed.
-          Poke affogato bitters literally. I'm baby hammock viral woke pinterest
-          bushwick, tacos polaroid succulents air plant beard bicycle rights fam
-          four loko glossier small batch. Roof party godard taiyaki sustainable
-          craft beer. Deep v godard live-edge, DIY microdosing pork belly
-          stumptown locavore chartreuse typewriter. Truffaut sartorial pug
-          iceland plaid bushwick trust fund, heirloom pabst mumblecore master
-          cleanse synth wayfarers tattooed. Poke affogato bitters literally. I'm
-          baby hammock viral woke pinterest bushwick, tacos polaroid succulents
-          air plant beard bicycle rights fam four loko glossier small batch.
-          Roof party godard taiyaki sustainable craft beer. Deep v godard
-          live-edge, DIY microdosing pork belly stumptown locavore chartreuse
-          typewriter. Truffaut sartorial pug iceland plaid bushwick trust fund,
-          heirloom pabst mumblecore master cleanse synth wayfarers tattooed.
-          Poke affogato bitters literally.
+          <div class="card text-left">
+            <img class="card-img-top" src="//#region " alt="" />
+            <div class="card-body">
+              <h4 class="card-title">Title</h4>
+              <p class="card-text">Body</p>
+            </div>
+          </div>
+        </Col>
+        <Col>
+          <div class="card text-left">
+            <img class="card-img-top" src="//#region " alt="" />
+            <div class="card-body">
+              <h4 class="card-title">Title</h4>
+              <p class="card-text">Body</p>
+            </div>
+          </div>
+        </Col>
+        <Col>
+          <div class="card text-left">
+            <img class="card-img-top" src="//#region " alt="" />
+            <div class="card-body">
+              <h4 class="card-title">Title</h4>
+              <p class="card-text">Body</p>
+            </div>
+          </div>
         </Col>
       </Row>
     </Container>
